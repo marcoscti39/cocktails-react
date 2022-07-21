@@ -1,0 +1,28 @@
+.cocktail-search{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 600px;
+    margin: 5rem auto 0 auto;
+    gap: 1.2rem;
+    padding: 2rem;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px
+}
+
+
+.cocktail-label{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgb(63, 126, 63);
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+
+}
+
+.cocktail-input{
+    flex: 1;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    padding: .3rem .2rem;
+}
